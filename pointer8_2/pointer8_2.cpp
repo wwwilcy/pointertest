@@ -19,7 +19,9 @@ int main()
 
 	p1 = new int;
 	*p1 = 88;
+
 	cout << "*p1 ==" << *p1 << endl;
+	delete p1;
 	cout << "*p2 ==" << *p2 << endl;
 
 	return 0;
